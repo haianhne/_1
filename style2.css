@@ -1,0 +1,66 @@
+/* BEST SELLER
+IMAGE = 555 X 736 PIXEL
+*/
+.best-seller h1 {
+    text-align: center;
+}
+
+.best-seller h1 a {
+    text-decoration: none;
+    font-family:'Noto Sans', sans-serif;
+    font-weight:500;
+    font-size: 38px;
+    color:rgb(26, 32, 34);
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+
+.best-seller-products {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+.best-seller-products div img {
+    cursor: pointer;
+    opacity: 1;
+    width: 80%;
+    transition: width 0.5s;
+}
+
+.best-seller-products div img:hover {
+    transition: 0.7s;
+    opacity: 0.7;
+    width: 88%;
+}
+
+.best-products-container {
+    position: relative;
+    text-align: center;
+}
+
+.best-products-container .text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #dbd8d8;
+    cursor: pointer;
+}
+
+.best-products-container .text-price {
+    top: 90%;
+}
+
+/* NEW ARRIVAL */
+.new-products {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 168px;
+}
