@@ -64,3 +64,85 @@ IMAGE = 555 X 736 PIXEL
     justify-content: space-between;
     padding: 36px 168px;
 }
+
+.new-products img {
+    cursor: pointer;
+    opacity: 1;
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.new-products img:hover {
+    transition: 0.7s;
+    opacity: 0.7;
+    width: 108%;
+}
+
+
+
+/*commitment*/
+.commitment {
+    display: flex;
+}
+
+.commitment .box {
+    width: 486px;
+    height: 265px;
+    border: none;
+}
+
+.commitment .box .icon {
+    font-size: 100px;
+    left: 10%;
+    padding: 0 60px;
+    color:rgb(254, 255, 255);
+}
+
+.commitment .box .text {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 30px;
+    color:rgb(254, 255, 255);
+    display: flex;
+    padding-left: 36px;
+}
+
+.commitment .box .detals {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color:rgb(254, 255, 255);
+    display: flex;
+    padding-left: 36px;
+}
+
+/*About us*/
+
+.about-us {
+    display:flex;
+}
+
+.about-us .box {
+    width: 952px;
+    height: 80px;
+    
+}
+
+.about-us .icon {
+    font-size: 24px;
+    margin:0px 38px ;
+    cursor: pointer;
+}
+
+.about-us .text {
+    margin:0px 38px;
+    cursor: pointer;
+}
+
+
+.box-temp {
+    width: auto;
+    height: 80px;
+}
